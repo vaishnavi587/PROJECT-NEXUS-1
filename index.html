@@ -35,6 +35,46 @@
             right: 10px;
             z-index: 10;
         }
+    .text {
+        /* Styles for larger screens */
+        margin: 0 auto; /* Center the content horizontally */
+        max-width: 800px; /* Adjust the maximum width based on your design */
+      }
+      
+    .text {
+      text-align: center; /* Center-align the text */
+    }
+
+    .text h2 {
+      font-size: 24px; /* Adjust the font size for h2 */
+    }
+
+    .text h3 {
+      font-size: 20px; /* Adjust the font size for h3 */
+    }
+
+    .text p {
+      font-size: 16px; /* Adjust the font size for paragraphs */
+    }
+
+    @media screen and (max-width: 768px) {
+      /* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+     .text {
+        text-align: center; /* Center-align the text on smaller screens */
+      }
+
+      .text h2 {
+        font-size: 18px; /* Decrease the font size for h2 on smaller screens */
+      }
+
+      .text h3 {
+        font-size: 16px; /* Decrease the font size for h3 on smaller screens */
+      }
+
+      .text p {
+        font-size: 14px; /* Decrease the font size for paragraphs on smaller screens */
+      }
+    }
     </style>
 </head>
 <body>
