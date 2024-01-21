@@ -36,43 +36,32 @@
             z-index: 10;
         }
     .text {
-        /* Styles for larger screens */
-        margin: 0 auto; /* Center the content horizontally */
-        max-width: 800px; /* Adjust the maximum width based on your design */
-      }
-      
-    .text {
-      text-align: center; /* Center-align the text */
+      margin: 0 auto;
+      max-width: 800px;
+      text-align: center; /* Center-align the content horizontally */
     }
 
-    .text h2 {
-      font-size: 24px; /* Adjust the font size for h2 */
-    }
-
-    .text h3 {
-      font-size: 20px; /* Adjust the font size for h3 */
-    }
-
+    /* Default font size for larger screens (laptops, desktops) */
+    .text h2,
+    .text h3,
     .text p {
-      font-size: 16px; /* Adjust the font size for paragraphs */
+      font-size: 16px;
     }
 
     @media screen and (max-width: 768px) {
       /* Media query for screens with a maximum width of 768px (typical for mobile devices) */
-     .text {
-        text-align: center; /* Center-align the text on smaller screens */
+      .text {
+        max-width: 100%;
       }
 
-      .text h2 {
-        font-size: 18px; /* Decrease the font size for h2 on smaller screens */
-      }
-
+      /* Decreased font size for smaller screens (phones) */
+      .text h2,
       .text h3 {
-        font-size: 16px; /* Decrease the font size for h3 on smaller screens */
+        font-size: 14px;
       }
 
       .text p {
-        font-size: 14px; /* Decrease the font size for paragraphs on smaller screens */
+        font-size: 12px;
       }
     }
     </style>
