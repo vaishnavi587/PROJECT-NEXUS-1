@@ -162,3 +162,9 @@ text-transform: uppercase;
         background-color: #fff; 
     }
     }
+    @media screen and (max-width: 768px) {
+        /* Adjust the font size for mobile devices */
+        body {
+          font-size: 14px; /* Adjust this value based on your preference */
+        }
+    }
