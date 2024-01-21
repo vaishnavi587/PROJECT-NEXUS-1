@@ -162,7 +162,7 @@ text-transform: uppercase;
         background-color: #fff; 
     }
     }
-    .overlay {
+    .text {
         /* Styles for larger screens */
         margin: 0 auto; /* Center the content horizontally */
         max-width: 800px; /* Adjust the maximum width based on your design */
@@ -170,7 +170,7 @@ text-transform: uppercase;
       
       /* Media query for screens with a maximum width of 768px (typical for mobile devices) */
       @media screen and (max-width: 768px) {
-        .overlay {
+        .text {
           margin: 0 auto; /* Center the content horizontally on smaller screens */
           max-width: 100%; /* Allow the content to take up the full width on smaller screens */
         }
